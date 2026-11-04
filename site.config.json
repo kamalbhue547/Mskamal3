@@ -1,0 +1,30 @@
+{
+  "username": "kamalbhue547",
+  "hiddenRepos": ["kamalbhue547", "Mskamal-"],
+  "ignoredDescriptions": [
+    "Software Developer | Building cool things for the web | Open Source Enthusiast"
+  ],
+  "projects": {
+    "Mskamal1": {
+      "title": "Go data/ML platform",
+      "description": "Ingest, pipeline, train, serve: a Go data/ML platform with two interchangeable serving backends (pure Go and ONNX Runtime) that are parity-tested against each other."
+    },
+    "Mskamal2": {
+      "title": "Frameforge",
+      "description": "A responsive creator-asset workspace that turns a raw video script into a reviewable YouTube publishing kit: titles, descriptions, chapters and thumbnail directions, with deterministic validation."
+    },
+    "Mskamal3": {
+      "title": "This portfolio",
+      "description": "The site you are looking at: a dependency-free static page that renders my public GitHub projects live, with a saved snapshot as a fallback."
+    },
+    "Mskamal4": {
+      "title": "Singularity",
+      "description": "An interactive, real-time Three.js visualization of a stellar-mass black hole, with a glowing accretion disk, gravitational lensing and controls for mass and orbital speed."
+    },
+    "Mskamal5": {
+      "title": "devicecheck",
+      "description": "A dependency-free Python CLI that compares Android phone properties with documented reference profiles. Strictly read-only."
+    }
+  },
+  "backdrop": true
+}
