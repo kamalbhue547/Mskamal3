@@ -1,0 +1,31 @@
+{
+  "name": "mskamal3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Developer portfolio that renders my public GitHub projects live, with an offline snapshot fallback.",
+  "license": "MIT",
+  "author": "kamalbhue547",
+  "homepage": "https://github.com/kamalbhue547/Mskamal3#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamalbhue547/Mskamal3.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || >=24"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node --test --test-reporter=spec",
+    "lint": "eslint .",
+    "check": "npm run lint && npm test",
+    "snapshot": "node scripts/snapshot.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "jsdom": "^29.1.0"
+  }
+}

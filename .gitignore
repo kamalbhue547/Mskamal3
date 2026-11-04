@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Test / tooling output
+coverage/
+*.log
+npm-debug.log*
+
+# Local environment
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
